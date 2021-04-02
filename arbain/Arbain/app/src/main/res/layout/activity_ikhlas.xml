@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firstapp.arbain.ikhlas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8F1FC4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/teks3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8F1FC4"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Hadits ke-1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <TextView
+            android:id="@+id/teks4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8F1FC4"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Amal Tergantung Niat"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8F1FC4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.077" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="20dp"
+            android:entries="@array/spinner_items"></Spinner>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإنَّمَا لِكُلِّ امْرِىءٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلى اللهِ وَرَسُوْلِهِ فَهِجْرتُهُ إِلَى اللهِ وَرَسُوُلِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيْبُهَا أَوِ امْرأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إلَيْهِ"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artinya :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“Sesungguhnya amal itu tergantung pada niatnya, sedangkan setiap orang akan mendapatkan sesuai dengan yang diniatkannya. Maka, barangsiapa yang hijrahnya kepada Allah dan Rasul-Nya maka hijrahnya kepada Allah dan Rasul-Nya, dan barangsiapa yang hijrahnya kepada dunia yang ingin diraih atau wanita yang ingin dinikahi maka hijrahnya kepada apa yang dia berhijrah kepadanya.” (HR. Al-Bukhari dan Muslim)."
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

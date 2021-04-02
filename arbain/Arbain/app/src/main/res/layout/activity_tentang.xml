@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3F41"
+    android:scrollbarSize="15dp"
+    tools:context="com.firstapp.arbain.Tentang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8F1FC4" />
+
+        <TextView
+            android:id="@+id/teks1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8F1FC4"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Baca Hadits"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/gg1" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Ikhlas"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Pengertian islam,Iman, dan ihsan"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Rukun Islam"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="proses penciptaan manusia dan t."
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="bahaya bid'ah"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="halal dan haram"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="agama adalah nasihat"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="memerangi kebatilan"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="melaksankan perintahnya"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="rizki yang halal"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="hilangkan keraguan"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Tingalkan Hal Sia-Sia"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Saling Mencintai"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Larangan Tiga Dosa"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Berkata Yang Baik"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Jangan Marah"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Berbuat Baik"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Kebaikan Menghapus Kesalahan"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Meminta Kepada Allah"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Miliki Sifat Malu"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Istiqomah"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Tegakan Syariat Islam"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Suci Bagian dari Iman"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Larangan Berbuat Zalim"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Shadaqah"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Perbuatan Baik"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Hindari Keresahan Hati"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Berpegang Kepada Sunah"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Menjaga Lisan"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Batasan-Batasan Allah"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Zuhud"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Larangan Berbuat Kerusakan"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Bukti untuk Berhakim"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Amar Ma’ruf Nahi Mungkar"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Jauhi Dengki"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Saling Membantu Sesama Muslim"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Pahala Berlipat Ganda"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Pahala Berlipat Ganda"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Perilaku Yang Diampuni"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Hiduplah Laksana Pengembara"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Menundukan Hawa Nafsu"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Larangan Berbuat Syirik"
+            android:textColor="#3F0050"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

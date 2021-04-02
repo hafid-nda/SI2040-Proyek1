@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Arbain</string>
+    <string-array name="spinner_items">
+        <item>Hadits</item>
+        <item>Terjemah</item>
+        <item>Syarah</item>
+    </string-array>
+</resources>
